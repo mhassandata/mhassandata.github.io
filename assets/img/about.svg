@@ -52,7 +52,7 @@
     <text x="20" y="103" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">strategy &amp; engineering</text>
   </g>
 
-  <!-- Stat 3: 350+ Trained -->
+  <!-- Stat 3: 500+ Trained -->
   <g transform="translate(40,340)">
     <rect width="245" height="120" rx="14" fill="#ffffff" opacity="0.06"/>
     <text x="20" y="55" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="44" font-weight="700">500<tspan font-size="28">+</tspan></text>

@@ -679,14 +679,26 @@
             Have an interesting project, a role to discuss or just want to say
             hello? My inbox is open — drop a message and I'll get back to you.
           </p>
-          <form class="contact-form" id="contact-form">
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formsubmit.co/mhassandata@gmail.com"
+            method="POST"
+          >
+            <!-- FormSubmit options -->
+            <input type="hidden" name="_subject" value="New message from portfolio" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://mhassandata.github.io/#contact" />
+
             <div class="form-group">
-              <input type="text" id="name" placeholder="Your Name" required />
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
             </div>
             <div class="form-group">
               <input
                 type="email"
                 id="email"
+                name="email"
                 placeholder="Your Email"
                 required
               />
@@ -694,6 +706,7 @@
             <div class="form-group">
               <textarea
                 id="message"
+                name="message"
                 rows="6"
                 placeholder="Your Message"
                 required

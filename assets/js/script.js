@@ -38,28 +38,5 @@ function activateNavLink() {
 
 window.addEventListener('scroll', activateNavLink);
 
-// Contact form mailto handler
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-  contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
-
-    if (!name || !email || !message) {
-      alert('Please fill in all fields before sending.');
-      return;
-    }
-
-    const subject = encodeURIComponent('Portfolio Contact Form Message');
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\n${message}`
-    );
-    // Compose mailto link
-    const mailtoLink = `mailto:mhassandata@gmail.com?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
-    // Optionally reset the form
-    contactForm.reset();
-  });
-}
+// Contact form is wired directly to FormSubmit via the form's action attribute.
+// Native HTML validation handles required fields; no JS hijack needed.
