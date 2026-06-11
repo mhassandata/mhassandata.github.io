@@ -679,41 +679,35 @@
             Have an interesting project, a role to discuss or just want to say
             hello? My inbox is open — drop a message and I'll get back to you.
           </p>
-          <form
-            class="contact-form"
-            id="contact-form"
-            action="https://formsubmit.co/mhassandata@gmail.com"
-            method="POST"
-          >
-            <!-- FormSubmit options -->
-            <input type="hidden" name="_subject" value="New message from portfolio" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://mhassandata.github.io/#contact" />
-
-            <div class="form-group">
-              <input type="text" id="name" name="name" placeholder="Your Name" required />
+          <div class="contact-direct">
+            <a href="mailto:mhassandata@gmail.com" class="contact-email">
+              mhassandata@gmail.com
+            </a>
+            <div class="contact-actions">
+              <a
+                href="mailto:mhassandata@gmail.com?subject=Hello%20from%20your%20portfolio"
+                class="button"
+              >
+                <i class="bx bxs-envelope"></i> Email Me
+              </a>
+              <a
+                href="https://www.linkedin.com/in/dshassan"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button secondary-button"
+              >
+                <i class="bx bxl-linkedin"></i> Connect on LinkedIn
+              </a>
+              <a
+                href="https://github.com/mhassandata"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button secondary-button"
+              >
+                <i class="bx bxl-github"></i> GitHub
+              </a>
             </div>
-            <div class="form-group">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="button">Send Message</button>
-          </form>
+          </div>
         </div>
       </section>
     </main>
