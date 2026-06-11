@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Muhammad Hassan – experience at a glance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c2340"/>
+      <stop offset="100%" stop-color="#1a3a6b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a6cf7"/>
+      <stop offset="100%" stop-color="#00c49a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="0" y="0" width="600" height="600" rx="24" fill="url(#bg)"/>
+
+  <!-- Decorative glow blobs -->
+  <circle cx="80"  cy="80"  r="90" fill="#4a6cf7" opacity="0.25" filter="url(#soft)"/>
+  <circle cx="540" cy="540" r="110" fill="#00c49a" opacity="0.22" filter="url(#soft)"/>
+
+  <!-- Header -->
+  <text x="40" y="70" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14" letter-spacing="3">
+    AT A GLANCE
+  </text>
+  <text x="40" y="108" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="30" font-weight="600">
+    Muhammad Hassan
+  </text>
+  <text x="40" y="138" fill="#00c49a" font-family="Poppins, Segoe UI, sans-serif" font-size="16" font-weight="500">
+    Data Scientist &amp; AI Engineer
+  </text>
+
+  <!-- Divider -->
+  <rect x="40" y="158" width="80" height="3" rx="2" fill="url(#accent)"/>
+
+  <!-- Stats grid (2x2) -->
+  <!-- Stat 1: 7+ Years -->
+  <g transform="translate(40,200)">
+    <rect width="245" height="120" rx="14" fill="#ffffff" opacity="0.06"/>
+    <text x="20" y="55" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="44" font-weight="700">7+</text>
+    <text x="20" y="85" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">Years building</text>
+    <text x="20" y="103" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">data &amp; AI systems</text>
+  </g>
+
+  <!-- Stat 2: 8 Roles -->
+  <g transform="translate(315,200)">
+    <rect width="245" height="120" rx="14" fill="#ffffff" opacity="0.06"/>
+    <text x="20" y="55" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="44" font-weight="700">8</text>
+    <text x="20" y="85" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">Roles spanning ML,</text>
+    <text x="20" y="103" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">strategy &amp; engineering</text>
+  </g>
+
+  <!-- Stat 3: 350+ Trained -->
+  <g transform="translate(40,340)">
+    <rect width="245" height="120" rx="14" fill="#ffffff" opacity="0.06"/>
+    <text x="20" y="55" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="44" font-weight="700">350<tspan font-size="28">+</tspan></text>
+    <text x="20" y="85" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">Students &amp; pros</text>
+    <text x="20" y="103" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">trained across Pakistan</text>
+  </g>
+
+  <!-- Stat 4: 1 of 30 -->
+  <g transform="translate(315,340)">
+    <rect width="245" height="120" rx="14" fill="#ffffff" opacity="0.06"/>
+    <text x="20" y="55" fill="#ffffff" font-family="Poppins, Segoe UI, sans-serif" font-size="44" font-weight="700">1<tspan fill="#00c49a">/</tspan>30</text>
+    <text x="20" y="85" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">Meta AI Master</text>
+    <text x="20" y="103" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="14">Trainers, Pakistan</text>
+  </g>
+
+  <!-- Tech badges -->
+  <g transform="translate(40,490)" font-family="Poppins, Segoe UI, sans-serif" font-size="13" font-weight="500">
+    <!-- Badge: Python -->
+    <g transform="translate(0,0)">
+      <rect width="78" height="32" rx="16" fill="#4a6cf7"/>
+      <text x="39" y="21" fill="#ffffff" text-anchor="middle">Python</text>
+    </g>
+    <!-- Badge: LLMs -->
+    <g transform="translate(86,0)">
+      <rect width="64" height="32" rx="16" fill="#00c49a"/>
+      <text x="32" y="21" fill="#0c2340" text-anchor="middle">LLMs</text>
+    </g>
+    <!-- Badge: RAG -->
+    <g transform="translate(158,0)">
+      <rect width="58" height="32" rx="16" fill="#4a6cf7"/>
+      <text x="29" y="21" fill="#ffffff" text-anchor="middle">RAG</text>
+    </g>
+    <!-- Badge: PyTorch -->
+    <g transform="translate(224,0)">
+      <rect width="82" height="32" rx="16" fill="#00c49a"/>
+      <text x="41" y="21" fill="#0c2340" text-anchor="middle">PyTorch</text>
+    </g>
+    <!-- Badge: SQL -->
+    <g transform="translate(314,0)">
+      <rect width="58" height="32" rx="16" fill="#4a6cf7"/>
+      <text x="29" y="21" fill="#ffffff" text-anchor="middle">SQL</text>
+    </g>
+    <!-- Badge: Agents -->
+    <g transform="translate(380,0)">
+      <rect width="78" height="32" rx="16" fill="#00c49a"/>
+      <text x="39" y="21" fill="#0c2340" text-anchor="middle">Agents</text>
+    </g>
+    <!-- Badge: ETL -->
+    <g transform="translate(466,0)">
+      <rect width="58" height="32" rx="16" fill="#4a6cf7"/>
+      <text x="29" y="21" fill="#ffffff" text-anchor="middle">ETL</text>
+    </g>
+  </g>
+
+  <!-- Footer tag -->
+  <text x="40" y="560" fill="#cfd7e0" font-family="Poppins, Segoe UI, sans-serif" font-size="13" opacity="0.8">
+    Kaggle Notebook Expert  ·  FAST NUCES MS in Data Science
+  </text>
+</svg>
